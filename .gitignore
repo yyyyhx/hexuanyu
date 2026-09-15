@@ -4,4 +4,15 @@ Gemfile.lock
 *.gem
 .DS_Store
 .jekyll-cache
+.jekyll-metadata
 git-update.sh
+.bundle/
+vendor/
+
+# Environment / secrets (defensive — none currently tracked)
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519

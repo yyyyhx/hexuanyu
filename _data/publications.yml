@@ -1,22 +1,127 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "MINIM: Privacy-Aware Minimal View for Agents via Trusted Local Sanitization"
+    authors: "<strong>Hexuan Yu</strong>, Chaoyu Zhang, Heng Jin, Shanghao Shi, Ning Zhang, Y. Thomas Hou, Wenjing Lou"
+    venue: "International Conference on Machine Learning (ICML)"
+    year: 2026
+    pdf: https://arxiv.org/abs/2606.13949
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "ANONYCALL: Enabling Native Private Calling in Mobile Networks"
+    authors: "<strong>Hexuan Yu</strong>, Chaoyu Zhang, Yang Xiao, Angelos D. Keromytis, Y. Thomas Hou, Wenjing Lou"
+    venue: "Network and Distributed System Security Symposium (NDSS)"
+    year: 2026
+    pdf: https://www.ndss-symposium.org/wp-content/uploads/2026-f1064-paper.pdf
+    badge_image: ./assets/img/anonycall-ae-badge.png
+    badge_image_alt: "NDSS Artifact Evaluation badge: Available, Functional, Reproduced"
+    # Public source: csconfstats.xoveexu.com/conferences/ndss/2026 (265/1481 submissions).
+    accept_stat: "265/1,481 papers accepted (17.9%)."
+
+  - title: "V-PASS: Sybil-Resistant Pseudonym Self-Provisioning for V2X"
+    authors: "<strong>Hexuan Yu</strong>, Md Mohaimin Al Barat, Shaoyu Li, Md Hasan Shahriar, Yang Xiao, Panagiotis Papadimitratos, Y. Thomas Hou, Wenjing Lou"
+    venue: "ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec)"
+    year: 2026
+    pdf: https://shahriar0651.github.io/assets/pdf/paper_2026_VPASS.pdf
+    # Acceptance statistic provided by author (31 accepted of 145 submissions);
+    # not found on any public WiSec 2026 page as of this writing.
+    accept_stat: "31/145 papers accepted (21.4%)."
+
+  - title: "Skynet: Workflow-Level Anomaly Detection for Agentic AI via Semantic and Structural Modeling"
+    authors: "Chaoyu Zhang<sup>*</sup>, <strong>Hexuan Yu</strong><sup>*</sup>, Heng Jin, Shanghao Shi, Ning Zhang, Yi Shi, Yulia R. Gel, Y. Thomas Hou, Wenjing Lou"
+    author_note: "* Equal contribution"
+    venue: "ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc)"
+    year: 2026
+    pdf: https://arxiv.org/abs/2609.06835
+    notes: "To appear"
+    # Acceptance statistic provided by author from the official MobiHoc 2026 acceptance
+    # notification email (60 accepted of 260 submitted); public statistics not yet available.
+    accept_stat: "60/260 papers accepted (23.1%)."
+
+  - title: "Trusting What You Cannot See: Auditable Fine-Tuning and Inference for Proprietary AI"
+    authors: "Heng Jin, Chaoyu Zhang, <strong>Hexuan Yu</strong>, Shanghao Shi, Ning Zhang, Y. Thomas Hou, Wenjing Lou"
+    venue: "USENIX Security Symposium"
+    year: 2026
+    pdf: https://www.usenix.org/system/files/usenixsecurity26-jin.pdf
+    # Public source: USENIX Security '26 Program Co-Chairs' message
+    # (usenix.org/sites/default/files/sec26_message.pdf) — official combined
+    # cycle 1 + cycle 2 total: 362 accepted of 2,750 valid submissions (13.2%,
+    # as stated by the chairs; relative to 3,028 raw submissions it is ~12.0%).
+    accept_stat: "362/2,750 papers accepted (13.2%)."
+
+  - title: "FC-GUARD: Enabling Anonymous yet Compliant Fiat-to-Cryptocurrency Exchanges"
+    authors: "Shaoyu Li, <strong>Hexuan Yu</strong>, Md Mohaimin Al Barat, Yang Xiao, Y. Thomas Hou, Wenjing Lou"
+    venue: "IEEE International Conference on Computer Communications (INFOCOM)"
+    year: 2026
+    pdf: https://arxiv.org/abs/2601.16298
+    # Public source: official IEEE INFOCOM 2026 Chairs' Message
+    # (infocom2026.ieee-infocom.org/chairs-message): "received over 1,740
+    # submissions" and "final selection of 327 papers" (main conference).
+    accept_stat: "327/1,740 papers accepted (18.8%)."
+
+  - title: "SpexPay: A Privacy-Preserving Pay-As-You-Go System for Dynamic Spectrum Sharing"
+    authors: "Md Mohaimin Al Barat, <strong>Hexuan Yu</strong>, Shaoyu Li, Yang Xiao, Yi Shi, Eric W. Burger, Y. Thomas Hou, Wenjing Lou"
+    venue: "European Symposium on Research in Computer Security (ESORICS)"
+    year: 2026
+    pdf: https://arxiv.org/abs/2607.17218
+
+  - title: "Enabling Emergency Communication via Semantic Radar-Centric ISAC"
+    authors: "Md Mohaimin Al Barat, Chaoyu Zhang, <strong>Hexuan Yu</strong>, Kai Zeng, Y. Thomas Hou, Wenjing Lou"
+    venue: "IEEE Military Communications Conference (MILCOM)"
+    year: 2026
+    pdf: https://arxiv.org/abs/2609.06801
+    notes: "To appear"
+
+  - title: "Privacy-Preserving Split Learning for Federated LLM Fine-Tuning"
+    authors: "Heng Jin, Chaoyu Zhang, <strong>Hexuan Yu</strong>, Wenjing Lou, Y. Thomas Hou"
+    venue: "arXiv preprint"
+    year: 2026
+    pdf: https://arxiv.org/abs/2609.09794
+
+  - title: "ClawCoin: An Agentic AI-Native Cryptocurrency for Decentralized Agent Economies"
+    authors: "Shaoyu Li, Chaoyu Zhang, <strong>Hexuan Yu</strong>, Y. Thomas Hou, Wenjing Lou"
+    venue: "2026 Nanyang Blockchain Conference (NBC)"
+    year: 2026
+    pdf: https://arxiv.org/abs/2604.19026
+
+  - title: "Closing the Visibility Gap: A Monitoring Framework for Verifiable Open RAN Operations"
+    authors: "<strong>Hexuan Yu</strong>, Md Mohaimin Al Barat, Yang Xiao, Y. Thomas Hou, Wenjing Lou"
+    venue: "IEEE Conference on Communications and Network Security (CNS)"
+    year: 2025
+    pdf: https://arxiv.org/abs/2509.03000
+
+  - title: "StarCast: A Secure and Spectrum-Efficient Group Communication Scheme for LEO Satellite Networks"
+    authors: "Chaoyu Zhang, <strong>Hexuan Yu</strong>, Shanghao Shi, Shaoyu Li, Yi Shi, Eric Burger, Y. Thomas Hou, Wenjing Lou"
+    venue: "IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN)"
+    year: 2025
+    pdf: https://arxiv.org/abs/2502.07901
+
+  - title: "Enabling Trustworthy Federated Learning via Remote Attestation for Mitigating Byzantine Threats"
+    authors: "Chaoyu Zhang, Heng Jin, Shanghao Shi, <strong>Hexuan Yu</strong>, Sydney Johns, Y. Thomas Hou, Wenjing Lou"
+    venue: "IEEE Military Communications Conference (MILCOM)"
+    year: 2025
+    pdf: https://arxiv.org/abs/2509.00634
+
+  - title: "AAKA: An Anti-Tracking Cellular Authentication Scheme Leveraging Anonymous Credentials"
+    authors: "<strong>Hexuan Yu</strong>, Changlai Du, Yang Xiao, Angelos D. Keromytis, Chonggang Wang, Robert Gazda, Y. Thomas Hou, Wenjing Lou"
+    venue: "Network and Distributed System Security Symposium (NDSS)"
+    year: 2024
+    pdf: https://www.ndss-symposium.org/wp-content/uploads/2024-617-paper.pdf
+    # Public source: csconfstats.xoveexu.com/conferences/ndss/2024 (140/682 submissions).
+    accept_stat: "140/682 papers accepted (20.5%)."
+
+  - title: "Pri-Share: Enabling Inter-SAS Privacy Protection via Secure Multi-Party Spectrum Allocation"
+    authors: "<strong>Hexuan Yu</strong>, Shanghao Shi, Yi Shi, Eric W. Burger, Y. Thomas Hou, Wenjing Lou"
+    venue: "IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN)"
+    year: 2024
+    pdf: https://shishishi123.github.io/files/sas-privacy.pdf
+
+  - title: "UCBlocker: Unwanted Call Blocking Using Anonymous Authentication"
+    authors: "Changlai Du, <strong>Hexuan Yu</strong>, Yang Xiao, Y. Thomas Hou, Angelos D. Keromytis, Wenjing Lou"
+    venue: "USENIX Security Symposium"
+    year: 2023
+    pdf: https://www.usenix.org/system/files/usenixsecurity23-du.pdf
+
+  - title: "Mobile Tracking in 5G and Beyond Networks: Problems, Challenges, and New Directions"
+    authors: "Changlai Du, <strong>Hexuan Yu</strong>, Yang Xiao, Wenjing Lou, Chonggang Wang, Robert Gazda, Y. Thomas Hou"
+    venue: "IEEE International Conference on Mobile Ad Hoc and Smart Systems (MASS)"
+    year: 2022
+    pdf: https://www.cnsr.ictas.vt.edu/publication/Changlai2022.pdf
