@@ -8,7 +8,7 @@
 <li>
 <div class="pub-entry{% if link.badge_image %} has-badge{% endif %}">
     <div class="pub-text">
-    <div class="title"><a href="{{ link.pdf }}" target="_blank">{{ link.title }}</a>{% if link.pdf %} <a href="{{ link.pdf }}" class="paper-link" target="_blank">[Paper]</a>{% endif %}</div>
+    <div class="title">{{ link.title }}{% if link.pdf %} <a href="{{ link.pdf }}" class="paper-link" target="_blank">[Paper]</a>{% endif %}</div>
     <div class="author">{{ link.authors }}{% if link.author_note %} <span class="author-note">{{ link.author_note }}</span>{% endif %}</div>
     <div class="periodical"><span class="venue-name">{{ link.venue }}</span><span class="venue-year">, {{ link.year }}{% if link.notes %} ({{ link.notes }}){% endif %}.</span>{% if link.accept_stat %} <span class="accept-stat">{{ link.accept_stat }}</span>{% endif %}</div>
     {% if link.badges %}
