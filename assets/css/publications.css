@@ -18,7 +18,7 @@
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
 
-:root { --global-bg-color: #ffffff; --global-code-bg-color: rgba(181, 9, 172, 0.05); --global-text-color: #24292F; --global-text-color-secondary: #59636E; --global-text-color-light: #6E7781; --global-theme-color: #3F6FAF; --global-theme-hover-color: #33608E; --global-divider-color: #D7DEE7; --global-subtle-bg-color: #F5F8FC; --global-hover-color: #ffb81c; --global-footer-bg-color: #1c1c1c; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-distill-app-color: #828282; }
+:root { --global-bg-color: #ffffff; --global-code-bg-color: rgba(181, 9, 172, 0.05); --global-text-color: #24292F; --global-text-color-secondary: #59636E; --global-text-color-light: #6E7781; --global-theme-color: #3F6FAF; --global-theme-hover-color: #33608E; --global-divider-color: #D7DEE7; --global-subtle-bg-color: #F5F8FC; --global-hover-color: #ffb81c; --global-footer-bg-color: #1c1c1c; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-distill-app-color: #828282; --global-firstauthor-color: #C2410C; }
 
 @media (prefers-color-scheme: dark) { :root {
   --global-text-color: #E6E9EC;
@@ -28,6 +28,7 @@
   --global-theme-hover-color: #9BC0E6;
   --global-divider-color: #3A3F4A;
   --global-subtle-bg-color: #262A33;
+  --global-firstauthor-color: #FB923C;
 } }
 
 blockquote { background: var(--global-bg-color); border-left: 2px solid var(--global-theme-color); margin: 1.5em 10px; padding: 0.5em 10px; font-size: 1.2rem; }
@@ -56,6 +57,10 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li .paper-link:hover { color: var(--global-theme-hover-color); text-decoration: underline; }
 
 .publications ol.bibliography li .author { font-size: 0.85rem; color: var(--global-text-color-secondary); margin-bottom: 0.15rem; line-height: 1.4; }
+
+.publications ol.bibliography li .author .my-name { color: var(--global-text-color); font-weight: 700; }
+
+.publications ol.bibliography li .author .my-name.is-first-author { color: var(--global-firstauthor-color); font-weight: 800; }
 
 .publications ol.bibliography li .periodical { font-size: 0.86rem; margin-bottom: 0; line-height: 1.4; }
 
